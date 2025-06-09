@@ -1,0 +1,74 @@
+body {
+  background-color: #111827;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.skip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.skip-card {
+  background-color: #1f2937;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.skip-avatar {
+  background-color: #2563eb;
+  color: white;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.badge.yes {
+  background-color: #10b981;
+  color: white;
+}
+
+.badge.no {
+  background-color: #ef4444;
+  color: white;
+}
+
+.select-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.select-button:hover {
+  background-color: #2563eb;
+}
